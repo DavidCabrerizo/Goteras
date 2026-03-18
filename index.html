@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoterasMadrid | Impermeabilizaciones en Madrid, terrazas, cubiertas y tejados</title>
+  <meta name="description" content="Soluciones profesionales de impermeabilización en Madrid. Terrazas, cubiertas, tejados, humedades, filtraciones, fachadas y comunidades de vecinos. Atención rápida en Madrid." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <p>Madrid y alrededores · Atención rápida · Terrazas · Cubiertas · Tejados</p>
+      <div class="topbar__links">
+        <a href="tel:+34613885041">📞 +34 613 88 50 41</a>
+        <a href="mailto:goterasmadrid81@gmail.com">✉ goterasmadrid81@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <span class="brand__mark">GM</span>
+        <span class="brand__text">
+          <strong>GoterasMadrid</strong>
+          <small>Especialistas en goteras e impermeabilización</small>
+        </span>
+      </a>
+
+      <nav class="nav nav--desktop" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="btn btn--primary btn--sm header__cta" href="#contacto">Pedir presupuesto</a>
+        <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="nav nav--mobile" id="mobileNav" aria-label="Menú móvil">
+      <a href="#servicios">Servicios</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacto">Pedir presupuesto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__glow"></div>
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <div class="pill"><span class="pill__dot"></span>Solución real para filtraciones, goteras y humedades</div>
+          <h1>Impermeabilizaciones duraderas en Madrid para terrazas, cubiertas, tejados y fachadas</h1>
+          <p class="hero__lead">
+            En GoterasMadrid analizamos el origen del problema antes de actuar. No vendemos parches temporales:
+            aplicamos soluciones técnicas pensadas para que la filtración no vuelva a aparecer a los pocos meses.
+          </p>
+
+          <div class="hero__buttons">
+            <a class="btn btn--primary" href="#contacto">Pedir presupuesto</a>
+            <a class="btn btn--ghost" href="tel:+34613885041">Llamar al 613 88 50 41</a>
+          </div>
+
+          <div class="hero__highlights">
+            <div class="chip">Diagnóstico claro y honesto</div>
+            <div class="chip">Trabajo limpio y planificado</div>
+            <div class="chip">Especialistas en Madrid</div>
+            <div class="chip">Atención rápida en Madrid</div>
+          </div>
+        </div>
+
+        <aside class="lead reveal" id="contacto">
+          <div class="lead__head">
+            <div class="lead__badge">Respuesta rápida · Presupuesto sin compromiso</div>
+            <h2>Cuéntanos tu caso</h2>
+            <p>Te contactamos para valorar la mejor solución según superficie, daños y zona.</p>
+          </div>
+
+          <form class="form" action="https://formsubmit.co/goterasmadrid81@gmail.com" method="POST" novalidate>
+            <div class="form__row">
+              <label class="sr-only" for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" placeholder="Nombre y apellidos" required />
+            </div>
+
+            <div class="form__row form__row--2">
+              <label class="sr-only" for="telefono">Teléfono</label>
+              <input id="telefono" name="telefono" type="tel" placeholder="Teléfono" required />
+              <label class="sr-only" for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" placeholder="Correo electrónico" required />
+            </div>
+
+            <div class="form__row form__row--2">
+              <label class="sr-only" for="zona">Zona o municipio</label>
+              <input id="zona" name="zona" type="text" placeholder="Zona o municipio" required />
+              <label class="sr-only" for="servicio">Tipo de servicio</label>
+              <select id="servicio" name="servicio" required>
+                <option value="">Tipo de servicio</option>
+                <option>Impermeabilización de terrazas y azoteas</option>
+                <option>Cubiertas transitables o no transitables</option>
+                <option>Reparación de tejados y goteras</option>
+                <option>Humedades y filtraciones</option>
+                <option>Fachadas y medianeras</option>
+                <option>Comunidades de vecinos</option>
+                <option>Otro</option>
+              </select>
+            </div>
+
+            <div class="form__row">
+              <label class="sr-only" for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe el problema: zona afectada, tipo de inmueble, cuándo aparece la humedad, si ya hubo reparaciones previas..." required></textarea>
+            </div>
+
+            <input type="hidden" name="_subject" value="Nuevo contacto desde la web de GoterasMadrid" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="./gracias.html" />
+
+            <button class="btn btn--primary btn--block" type="submit" id="submitBtn">Enviar solicitud</button>
+            <p class="form__note">Tus datos se usarán solo para responder a tu solicitud.</p>
+            <div class="form__error" id="formError" role="alert" aria-live="polite"></div>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="container trust__grid reveal">
+        <article class="trust__item">
+          <strong>Solución real</strong>
+          <p>Buscamos el origen, no solo el síntoma. Analizamos juntas deterioradas, grietas capilares, membranas envejecidas y puntos débiles de la estructura antes de proponer una intervención.</p>
+        </article>
+        <article class="trust__item">
+          <strong>Trabajo limpio y planificado</strong>
+          <p>Compartimos la planificación contigo antes de empezar, protegemos las zonas cercanas y reducimos al mínimo polvo, ruidos e interferencias durante el trabajo.</p>
+        </article>
+        <article class="trust__item">
+          <strong>Madrid es nuestra casa</strong>
+          <p>Conocemos el comportamiento de cubiertas, fachadas y materiales en los barrios de Madrid, su clima y sus cambios de temperatura. Eso nos permite responder con rapidez y cercanía.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="tag">Servicios profesionales</span>
+          <h2>Soluciones para viviendas, comunidades de vecinos y empresas</h2>
+          <p>Ofrecemos un catálogo completo de servicios de impermeabilización, ejecutados con materiales de primera calidad y técnicas avanzadas, tanto en reparaciones puntuales como en proyectos de mayor envergadura.</p>
+        </header>
+
+        <div class="services-detailed">
+          <article class="service-card reveal">
+            <div class="service-card__icon">T</div>
+            <h3>Impermeabilización de terrazas y azoteas</h3>
+            <p>Las terrazas y azoteas son las zonas más expuestas del edificio. La radiación solar, la lluvia, el viento y los cambios de temperatura deterioran progresivamente los materiales y abren el camino a las filtraciones.</p>
+            <p>Aplicamos membranas líquidas de poliuretano de alta elasticidad, láminas asfálticas reforzadas y sistemas adaptados al tránsito, la pendiente y la exposición solar de cada superficie.</p>
+            <ul>
+              <li>Filtraciones a vecinos inferiores</li>
+              <li>Encharcamientos por mala pendiente</li>
+              <li>Levantamientos del suelo por humedad</li>
+              <li>Deterioro de la membrana existente</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">C</div>
+            <h3>Cubiertas transitables y no transitables</h3>
+            <p>Cada cubierta requiere un enfoque técnico distinto. No aplicamos soluciones estándar: estudiamos su morfología, su uso y su exposición para ofrecer la intervención más eficaz.</p>
+            <p>En cubiertas transitables utilizamos sistemas resistentes al pisoteo y con acabados antideslizantes; en cubiertas no transitables, priorizamos la ligereza y la durabilidad.</p>
+            <ol>
+              <li>Inspección detallada del estado actual</li>
+              <li>Detección de puntos críticos y desagües</li>
+              <li>Propuesta técnica con alternativas de materiales</li>
+              <li>Ejecución profesional con controles de calidad</li>
+              <li>Prueba de estanqueidad final</li>
+            </ol>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">J</div>
+            <h3>Reparación de tejados y goteras</h3>
+            <p>Cuando el agua ya aparece en el techo, ha encontrado un camino a través de la estructura. Ignorarlo o poner soluciones temporales solo agrava el daño.</p>
+            <p>Intervenimos en tejados de teja, pizarra, metálicos o de fibrocemento, localizando el punto exacto de entrada del agua y realizando una reparación quirúrgica y definitiva.</p>
+            <ul>
+              <li>Roturas o desplazamientos de tejas</li>
+              <li>Encuentros con chimeneas o claraboyas</li>
+              <li>Canalones y bajantes deteriorados</li>
+              <li>Limahoyas y cumbreras en mal estado</li>
+              <li>Fijaciones sueltas o perforadas</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">H</div>
+            <h3>Tratamiento de humedades y filtraciones</h3>
+            <p>Las humedades pueden venir por capilaridad, condensación o filtraciones desde el exterior. Aplicar una pintura antihumedad sin conocer la causa es tapar el problema, no resolverlo.</p>
+            <p>Utilizamos higrómetros, termómetros infrarrojos y cámaras termográficas para entender qué ocurre realmente dentro de tus muros y aplicar la solución adecuada.</p>
+            <ul>
+              <li>Inyecciones de resina para capilaridad</li>
+              <li>Ventilación mecánica para condensación</li>
+              <li>Impermeabilización exterior en fachada</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">CC</div>
+            <h3>Comunidades de vecinos y administradores</h3>
+            <p>Trabajar con comunidades requiere planificación, comunicación y sensibilidad. Coordinamos propuestas, autorizaciones, horarios y comunicación con vecinos para minimizar fricciones.</p>
+            <ul>
+              <li>Presupuestos claros y detallados</li>
+              <li>Coordinación con administradores y presidentes</li>
+              <li>Información continua durante la obra</li>
+              <li>Gestión de residuos y limpieza diaria</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">F</div>
+            <h3>Fachadas y medianeras</h3>
+            <p>Las fachadas soportan años de lluvia, viento, contaminación y cambios térmicos. Con el tiempo aparecen grietas por donde el agua se filtra y termina afectando al interior de las viviendas.</p>
+            <ul>
+              <li>Sellado de grietas y fisuras con materiales elásticos</li>
+              <li>Aplicación de hidrofugantes invisibles</li>
+              <li>Revestimientos impermeables transpirables</li>
+              <li>Reparación de cornisas y elementos decorativos</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="trabajos">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="tag">Trabajos reales en Madrid</span>
+          <h2>Resultados visibles en nuestras intervenciones</h2>
+          <p>No nos gusta vender humo. Preferimos enseñar cómo trabajamos y cómo quedan los resultados. Aquí tienes tres publicaciones recientes del perfil de Instagram, acompañadas de su contexto técnico.</p>
+        </header>
+
+        <div class="instagram-grid reveal">
+          <a class="instagram-post" href="https://www.instagram.com/p/DVeEOyBDBT_/?img_index=1" target="_blank" rel="noopener noreferrer">
+            <div class="instagram-post__image placeholder-1"></div>
+            <div class="instagram-post__content">
+              <span class="instagram-post__badge">Publicación 1 · Chamberí</span>
+              <h3>Impermeabilización completa de terraza en quinto piso</h3>
+              <p><strong>Antes:</strong> membrana agrietada por el sol, filtraciones al vecino de abajo y encharcamientos cada vez que llovía.</p>
+              <p><strong>Después:</strong> membrana líquida de poliuretano con refuerzo de fibra, corrección de pendientes y acabado antideslizante.</p>
+              <p><strong>Resultado:</strong> terraza estanca, sin encharcamientos y con garantía de 10 años.</p>
+            </div>
+          </a>
+
+          <a class="instagram-post" href="https://www.instagram.com/p/DA6O2ZUCTAc/" target="_blank" rel="noopener noreferrer">
+            <div class="instagram-post__image placeholder-2"></div>
+            <div class="instagram-post__content">
+              <span class="instagram-post__badge">Publicación 2 · Salamanca</span>
+              <h3>Reparación integral de cubierta transitable</h3>
+              <p><strong>Antes:</strong> múltiples parcheos previos, juntas deterioradas y humedades generalizadas en los áticos.</p>
+              <p><strong>Después:</strong> sustitución completa por lámina asfáltica de alta densidad, sellado de encuentros y refuerzo en desagües.</p>
+              <p><strong>Resultado:</strong> los vecinos recuperan la tranquilidad cada vez que llueve.</p>
+            </div>
+          </a>
+
+          <a class="instagram-post" href="https://www.instagram.com/p/DA0SCbBNpt3/?img_index=1" target="_blank" rel="noopener noreferrer">
+            <div class="instagram-post__image placeholder-3"></div>
+            <div class="instagram-post__content">
+              <span class="instagram-post__badge">Publicación 3 · Carabanchel</span>
+              <h3>Reparación de goteras en tejado de teja curva</h3>
+              <p><strong>Antes:</strong> filtraciones en varias habitaciones, tejas rotas y cumbrera desprendida.</p>
+              <p><strong>Después:</strong> sustitución de piezas dañadas, sellado de cumbrera y refuerzo de fijaciones manteniendo la estética original.</p>
+              <p><strong>Resultado:</strong> el tejado recupera su aspecto y las goteras desaparecen.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="instagram-cta reveal">
+          <p>En Instagram publicamos semanalmente nuevos proyectos, vídeos del proceso, antes y después y consejos útiles para el mantenimiento del hogar.</p>
+          <a class="btn btn--primary" href="https://www.instagram.com/goterasmadrid/" target="_blank" rel="noopener noreferrer">Ver perfil de Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="opiniones">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="tag">Lo que dicen de nosotros</span>
+          <h2>Confianza que se construye proyecto a proyecto</h2>
+          <p>No hay mejor tarjeta de presentación que la recomendación de quien ya ha confiado en nosotros.</p>
+        </header>
+
+        <div class="reviews-grid">
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <h3>Profesionales de verdad</h3>
+            <p>“Llevaba años con una humedad en el techo del baño. Otros habían puesto parches y al poco tiempo volvía. Localizaron el origen en una junta mal sellada y lo solucionaron en un día.”</p>
+            <span>— Ana M. · Chamberí</span>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <h3>Impecables con la comunidad</h3>
+            <p>“Soy administrador de fincas y he trabajado con muchas empresas. Destacan por su seriedad, su limpieza y su capacidad para explicar a los vecinos lo que se va a hacer.”</p>
+            <span>— Carlos G. · Administrador de fincas, Salamanca</span>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <h3>La misma calidad de siempre</h3>
+            <p>“Conocía a la empresa por su antiguo nombre y ya me habían ayudado con una gotera. Ahora impermeabilizaron toda la terraza y el acabado es perfecto.”</p>
+            <span>— Javier R. · Majadahonda</span>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <h3>Rápidos, eficaces y honestos</h3>
+            <p>“Me explicaron por qué su presupuesto era más alto que otros: materiales mejores, más tiempo de garantía y una solución más sólida. Ha merecido la pena.”</p>
+            <span>— Laura S. · Carabanchel</span>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <h3>Resolvieron lo que otros no quisieron tocar</h3>
+            <p>“Teníamos una filtración muy complicada en una cubierta con varias alturas y muchos encuentros. Estudiaron el caso y plantearon una solución creativa y efectiva.”</p>
+            <span>— Miguel Á. · Presidente de comunidad, Tetuán</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="tag">Preguntas frecuentes</span>
+          <h2>Resolvemos tus dudas antes de contratar</h2>
+          <p>Información clara sobre el servicio, tiempos, garantías y forma de trabajo.</p>
+        </header>
+
+        <div class="faq reveal">
+          <details class="faq__item">
+            <summary>¿Por qué habéis cambiado el nombre de GoterasMadrid a GoterasMadrid?</summary>
+            <p>El cambio responde a la evolución del servicio. Seguimos siendo expertos en goteras, pero hoy también realizamos impermeabilización de terrazas, humedades en fachadas, cubiertas completas y soluciones más amplias. Es el mismo equipo y la misma calidad, con un enfoque más completo.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Hacéis presupuestos? ¿Tienen algún coste?</summary>
+            <p>Sí. Los presupuestos son gratuitos y sin compromiso. Concertamos una visita, analizamos la situación, tomamos medidas y te enviamos una propuesta detallada con materiales, solución y plazos.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Cuánto suele durar una reparación?</summary>
+            <p>Depende del caso: una gotera localizada suele resolverse en 1 o 2 días; una impermeabilización completa de terraza estándar, entre 3 y 5 días; una cubierta comunitaria puede requerir entre 5 y 10 días. En el presupuesto se detallan plazos realistas.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Trabajáis con comunidades de vecinos?</summary>
+            <p>Sí, es una de nuestras especialidades. Nos coordinamos con administradores y presidentes, presentamos propuestas claras, minimizamos molestias y dejamos todo limpio cada día.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Qué tipo de garantía ofrecéis?</summary>
+            <p>Todos los trabajos cuentan con garantía. Las impermeabilizaciones completas suelen tener entre 5 y 10 años, y las reparaciones localizadas entre 2 y 3 años, según el sistema aplicado y los materiales utilizados.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Qué materiales utilizáis?</summary>
+            <p>Trabajamos con primeras marcas del sector como Sika, Danosa, Texsa, Weber o Imperquimia. Elegimos el sistema según el soporte, la exposición solar, el tránsito y la compatibilidad con tratamientos anteriores.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Necesito estar presente durante los trabajos?</summary>
+            <p>No es necesario durante toda la intervención. Recomendamos presencia al inicio y al final, pero podemos trabajar con autonomía y mantenerte informado por teléfono o WhatsApp.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Qué pasa si llueve durante los trabajos?</summary>
+            <p>Planificamos las intervenciones consultando la previsión meteorológica. Si aparece lluvia inesperada, protegemos la zona con lonas o toldos y ajustamos la ejecución para evitar daños.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta__box reveal">
+          <div>
+            <h3>¿Tienes una filtración, gotera o humedad en casa o en tu comunidad?</h3>
+            <p>Pídenos una visita y te damos un diagnóstico profesional sin compromiso.</p>
+          </div>
+          <div class="cta__actions">
+            <a class="btn btn--dark" href="tel:+34613885041">Llamar</a>
+            <a class="btn btn--primary" href="#contacto">Pedir presupuesto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col">
+        <div class="footer__brand">
+          <span class="brand__mark brand__mark--sm">GM</span>
+          <div>
+            <strong>GoterasMadrid</strong>
+            <small>Especialistas en goteras e impermeabilización</small>
+          </div>
+        </div>
+        <p>Soluciones reales para goteras, humedades, cubiertas y terrazas en Madrid y alrededores.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <a href="tel:+34613885041">+34 613 88 50 41</a>
+        <a href="mailto:goterasmadrid81@gmail.com">goterasmadrid81@gmail.com</a>
+        <a href="https://www.instagram.com/goterasmadrid/" target="_blank" rel="noopener noreferrer">@goterasmadrid</a>
+      </div>
+      <div class="footer__col">
+        <h4>Servicios</h4>
+        <p>Terrazas · Cubiertas · Tejados · Humedades · Fachadas · Comunidades</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 GoterasMadrid. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="wapp" href="https://wa.me/34600000000" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">💬</a>
+  <script src="script.js"></script>
+</body>
+</html>
