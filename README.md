@@ -1,2 +1,0 @@
-# Goteras
-Modelo web goteras
